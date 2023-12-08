@@ -14,7 +14,7 @@
    width: 200px;
    height: 6px;
    border-radius: 10px;
-   background: #252525; 
+   background: rgb(140, 140, 245); 
 }
 .popular-item{
     display: flex;
