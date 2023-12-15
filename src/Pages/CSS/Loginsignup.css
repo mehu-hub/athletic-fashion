@@ -70,3 +70,27 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 570px){ 
+    .loginsignup{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .loginsignup-container{
+        margin: 10px;
+        width: auto;
+        padding: 10px; 
+    }
+    .loginsignup-container input{
+        width: auto;
+    }
+    .loginsignup-container button{
+        width: 100%;
+    }
+    .loginsignup-login{
+        font-size: 15px;
+    }
+    .loginsignup-agree p{
+        font-size: 10px;
+    }
+}

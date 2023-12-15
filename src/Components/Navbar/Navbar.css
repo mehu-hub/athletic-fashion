@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     position: sticky;
     top: 0;
     z-index: 1;
@@ -40,17 +40,20 @@
     background: rgb(2, 2, 48);
 }
 
-.nav-login-cart{
+
+
+ 
+ */
+
+ .nav-login-cart{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-
-.nav-login-cart img{
+ .nav-login-cart img{
     width: 30px;
 }
-
-.nav-login-cart button{
+ .nav-login-cart button{
     padding: 10px 40px;
     outline: none;
     border: 1px solid blue;
@@ -74,9 +77,93 @@
     justify-content: center;
     align-items: center;
     margin-top: -25px;
-    margin-left: -40px;
+    margin-left: -70px;
     border-radius: 11px;
     font-size: 14px;
     background: black;
     color: white;
 }
+
+
+ /* -------------------------------------------------- */
+
+
+
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px; 
+}
+.logo{
+    width: 150px;
+}
+nav ul{ 
+    padding: 10px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+} 
+nav li{
+    height: 50px; 
+} 
+nav li:first-child{
+    margin-right: auto; 
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;align-items: center;
+    color: black;
+}
+nav a:hover{
+    background: whitesmoke;
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+} 
+.sidebar li{
+    width: 100%;
+
+}
+.sidebar a{
+    width: 100%;
+}
+.menu-btn{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    } 
+}
+
+@media (max-width: 400px) {
+    .sidebar{
+        width: 100%;
+    }
+    
+}
+
+ 

@@ -99,3 +99,17 @@
     color: white;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 570px){
+    .cartItems{
+        margin: 50px 50px;
+    }
+    .format-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cartitem-productbox{
+        display: flex; 
+        gap: 20px;
+    }
+    
+}

@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
-import all_product from '../Components/Assets/all_product'
 import Swal from "sweetalert2";
+import all_product from '../Components/Assets/all_product';
 
 export const ShopContext = createContext(null);
 
@@ -32,20 +32,11 @@ const ShopContextProvider = (props) => {
     const removeCart = (itemId) => {
         setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
         Swal.fire({
-            title: "Are you sure?",
-            text: "Product Remove from this cart",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Yes, delete it!"
-          }).then((result) => {
-            if (result.isConfirmed) {
-              Swal.fire({
-                title: "Deleted!", 
-                icon: "success"
-              });
-            }
+            position: "center",
+            icon: "success",
+            title: "Remove from cart",
+            showConfirmButton: false,
+            timer: 1500
           });
     }
 

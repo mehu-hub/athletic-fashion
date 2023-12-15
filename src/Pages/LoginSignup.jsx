@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './CSS/Loginsignup.css'
+import { ShopContext } from '../Contex/ShopContext';
 
 const LoginSignup = () => {
+    const { checkOut } = useContext(ShopContext);
     return (
         <div className='loginsignup'>
             <div className="loginsignup-container">
@@ -11,7 +13,7 @@ const LoginSignup = () => {
                     <input type="email" placeholder='Email Address' />
                     <input type="password" placeholder='Password' />
                 </div>
-                <button>Continue</button>
+                <button onClick={() => checkOut()}>Continue</button>
                 <p className='loginsignup-login'>Already have an accaount? <span>Login now</span></p>
                 <div className='loginsignup-agree'>
                     <input type="checkbox" name='' id='' />
