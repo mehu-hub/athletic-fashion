@@ -40,3 +40,16 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+
+@media only screen and (max-width: 570px){
+    .shopcategory-products{
+        grid-template-columns: 1fr;
+        margin: 20px 40px;
+    }
+    .shopcategory-indexSort{
+        flex-direction: column;
+        margin: 20px 0px;
+        gap: 20px;
+    }
+}
