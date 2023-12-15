@@ -90,3 +90,37 @@
     outline: none;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 570px){
+    .breadcums{
+        margin: 20px 10px;
+    }     
+    .productdisplay{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .productdisplay-left{
+        flex-direction: column;
+    }
+    .productdisplay-img-list{
+        flex-direction: row;
+    }
+    .productdisplay-img-list img{
+        height: 80px;
+        width: 80px;
+    }
+    .productdisplay-img img{
+        width: 335px;
+        height: 335px;
+    }
+    .productdisplay-right{
+        margin: 0px 20px;
+    }
+    .right-sizes{
+        gap: 8px;
+    }
+    .productdisplay-right button {
+        width: 100%;
+    } 
+}

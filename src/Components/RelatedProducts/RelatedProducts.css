@@ -21,3 +21,12 @@
     display: flex;
     gap: 30px;
 }
+
+@media only screen and (max-width: 570px){ 
+    .relatedproducts h1{
+        font-size: 30px;
+    }
+    .related-products-item{
+        flex-direction: column;
+    }
+}

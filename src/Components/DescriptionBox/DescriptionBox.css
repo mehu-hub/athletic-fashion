@@ -27,3 +27,16 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+
+@media only screen and (max-width: 570px){
+    .descriptionbox{
+        margin: 50px 20px;
+    } 
+    .descriptionbox-navigator{
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    .description{
+        padding: 20px;
+    }
+}
