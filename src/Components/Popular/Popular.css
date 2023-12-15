@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: 90vh;
+    gap: 20px; 
     margin-bottom: 50px;
 }
 .popular h1{
@@ -18,7 +17,8 @@
    background: rgb(140, 140, 245); 
 }
 .popular-item{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
     gap: 30px;
 }

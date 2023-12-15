@@ -1,5 +1,5 @@
 .item{
-    width: 350px;
+    width: 300px;
 }
 .item p{
     margin: 6px 0px;
@@ -7,9 +7,12 @@
 .item-price{
     display: flex;
     gap: 20px;
+} 
+.popular-img{
+    width: 300px;
 }
 .item-price-new{
-    color: rgb(27, 4, 4)128, 128, 128);
+    color: black;
     font-size: 18px;
     font-weight: 600;
 }
