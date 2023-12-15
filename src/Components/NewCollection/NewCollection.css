@@ -22,3 +22,12 @@
     gap: 30px;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 570px){
+   .new-collection h1{
+    font-size: 30px;
+   }
+   .collections{
+    grid-template-columns: repeat(1, 1fr);
+   }
+}

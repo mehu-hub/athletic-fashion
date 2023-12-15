@@ -22,3 +22,16 @@
     margin-top: 50px;
     gap: 30px;
 }
+
+
+@media only screen and (max-width: 570px){
+    .popular{
+        margin-top: 50px;
+    }
+     .popular-item{
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .popular h1{
+        font-size: 30px;
+     }
+}

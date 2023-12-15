@@ -54,3 +54,29 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 570px){
+    .hero{
+        padding-top: 50px;
+        flex-direction: column; 
+    }
+    .hero-left{
+        flex: 0;
+        padding: 20px;
+    }
+    .hero-left p{
+        font-size: 50px; 
+    }
+    .hero-hand-icon img{
+        width: 60px;
+    }
+    .hero-latest-btn{
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+    }
+    .hero-right img{
+        width: 400px;
+    }
+}
